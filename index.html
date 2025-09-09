@@ -7,6 +7,7 @@
                 display: flex;
                 justify-content: space-between;
                 padding: 10px 50px;  
+                height: 85px;
             }
             .menu a {
                 color: black;
@@ -14,15 +15,34 @@
             }
 
             .section{
-                width: 800px;
-                height: 600px;
+                width: 1000px;
+                height: 400px;
                 align-items: center;
                 padding: 10px 50px;  
+            }
+            .inline-container {
+                overflow: hidden;  
+            }
+
+            .inline-container img {
+                float: right;
+                width: 275px; /* adjust as needed */
+                height: auto;
+                margin-left: 20px;
+                border-radius: 100px; /* optional: softens the image */
+            }
+
+            .aboutme-content {
+                overflow: hidden;
+            }
+
+            .aboutme-content h1 {
+            margin-top: 0;
             }
 
             body {
                     font-family: 'Roboto', sans-serif;
-                }
+            }
         </style>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title> Sarah Svitlik </title>
@@ -41,25 +61,45 @@
         </div>
 
         <section id="aboutme" class=section>
-            <h1>About Me</h1>
+            <div class="inline-container"> 
+            <img src="photo.jpg" alt="Photo of Sarah">
+            <div class="aboutme-content">
+            <h1>About Me</h1> 
             <p>Detail-oriented developer with expertise in frontend and backend development, project management,
                 and team collaboration. Passionate about creating high-quality, user centered solutions through
                 thoughtful collaboration. Committed to continuous growth and process refinement to create impactful
-                results.
-            </p>
+                results.</p> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        </div>
         </section>
+
+        <hr>
 
         <section id="education" class="section">
             <h1>Education</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+            <h3>Bachelor of Science: Computer Science </h3>
+            <p><i>University of New Haven - West Haven, CT</i></p>
+            <p><i>Graduation: May 2026</i></p>
+            <ul>
+                <li>Dean's List [Spring 2022, Spring 2025]</li>
+                <li>University of New Haven Distinguished Scholar Recipient</li>
+                <li>United Food & Commerical Worker's Local 919 Scholarship Recipient</li>
+                <li>Connecticut Community Foundation Scholarship Recipient</li>
+                <li>American Savings Scholarship Recipient</li>
+                <li>Awarded 2nd Place in the Pompea College of Business's Pitch Competition</li>
+              </ul>   
         </section>
+
+        <hr>
 
         <section id="skills" class="section">
             <h1>Skills</h1>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
         </section>
+
+        <hr>
 
         <section id="experience" class="section">
             <div id="job1"> 
