@@ -1,0 +1,87 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;  
+    background-color: rgb(255, 255, 175);
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.section{
+    width: 1000px;
+    height: 700px;
+    align-items: center;
+    padding: 10px 50px;  
+}
+.inline-container {
+    overflow: hidden;  
+}
+
+.inline-container img {
+    float: right;
+    width: 275px; /* adjust as needed */
+    height: auto;
+    margin-left: 20px;
+    border-radius: 100px; /* optional: softens the image */
+}
+
+.aboutme-content {
+    overflow: hidden;
+}
+
+.aboutme-content h1 {
+margin-top: 0;
+}
+
+.skill {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fdf6e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
+body {
+        font-family: 'Roboto', sans-serif;
+}
