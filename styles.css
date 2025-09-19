@@ -3,7 +3,6 @@
   padding: 20px;
   white-space: nowrap;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   text-align: center;
 }
 
@@ -27,7 +26,7 @@
   margin: 5px auto;
   border: 2px solid #333;
   border-radius: 6px;
-  background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 228);
   font-size: 14px;
   color: #333;
   text-align: center;
@@ -127,28 +126,30 @@
   color: #333;
 }
 
-
-
 .aboutme-content {
     overflow: hidden;
 }
 
- 
 .skill {
     display: inline-block;
     padding: 8px 12px;
     margin: 5px;
     border: 2px solid #333;
     border-radius: 6px;
-    background-color: #f0f0f0;
+    background-color: rgb(255, 255, 228);
     font-size: 14px;
     font-weight: 500;
     color: #333;
     text-align: center;
     white-space: nowrap;
   }
+  .contactme {
+
+  }
 .contact-form {
   max-width: 600px;
+          background-color: rgb(255, 255, 228);
+
   margin: 0 auto;
   padding: 20px;
 }
@@ -170,7 +171,31 @@
   border-radius: 4px;
 }
 
-  
+  .site-footer {
+  background-color: #f0f0f0;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-menu {
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
 body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
