@@ -1,0 +1,179 @@
+.menu {
+  background-color: rgb(255, 255, 175);
+  padding: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+#currentlyPlaying {
+  display: inline-block;
+  align-content: center;
+  padding: 6px 20%;
+  margin: 5px auto;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.section,
+.largeSection {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.aboutme-image {
+    overflow: hidden;  
+}
+
+.aboutme-image img {
+  float: left;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 50px;
+}
+
+.app-image {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.blog-app-container {
+  text-align: center;
+}
+
+.blog-app {
+  display: inline-block;
+  width: 240px;
+  margin: 0 15px 40px;
+  vertical-align: top;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.blog-app img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
+
+.app-image img {
+  float: left;
+  max-width: 240px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.app-content {
+  overflow: hidden;
+}
+
+.cert-container {
+  text-align: center;
+  font-size: 0;  
+}
+
+.cert-card {
+  display: inline-block;
+  width: 30%;
+  max-width: 250px;
+  margin: 10px;
+  vertical-align: top;
+  font-size: 16px; 
+}
+
+.cert-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.blog-cert img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.cert-card h2 {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+.aboutme-content {
+    overflow: hidden;
+}
+
+ 
+.skill {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+  }
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+  
+body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+}
+
+ 

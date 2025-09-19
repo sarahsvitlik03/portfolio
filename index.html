@@ -1,31 +1,12 @@
 <!DOCTYPE html>
-<html> 
-    <head> 
-        <meta charset="utf-8">
-        <style>
-            .menu {
-                display: flex;
-                justify-content: space-between;
-                padding: 10px 50px;  
-            }
-            .menu a {
-                color: black;
-                text-decoration: none;
-            }
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Sarah Svitlik</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></head>
 
-            .section{
-                width: 800px;
-                height: 200px;
-                align-items: center;
-                padding: 10px 50px;  
-            }
-            body {
-                    font-family: 'Roboto', sans-serif;
-                }
-        </style>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <title> Sarah Svitlik </title>
-    </head>
+    <link rel="stylesheet" href="styles.css">
     <body> 
         <div class = "menu">
             <a href = "#home">Home</a>
@@ -39,55 +20,162 @@
             <a href = "#contactme">Contact Me</a>
         </div>
 
-        <section id="home" class=section>
-            <h1>Home</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+        <section id="aboutme" class="section">
+            <div class="aboutme-image"> 
+            <img src="photo.jpg" alt="Photo of Sarah">
+            <h1>About Me</h1> 
+            <p> Hello! I am a detail-oriented developer with expertise in frontend and backend development, project management,
+                and team collaboration. I am passionate  about creating high-quality, user centered solutions through
+                thoughtful work and analysis. Committed to continuous growth and process refinement to create impactful
+                results!</p>  
+            
+            <div id="currentlyPlaying">
+                <p>Currently Playing: Xenoblade Chronicles X</p>
+            </div>
+            
+        </div>
         </section>
 
-        <section id="aboutme" class=section>
-            <h1>About Me</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </section>
+        <hr>
 
         <section id="education" class="section">
             <h1>Education</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+            <h3>Bachelor of Science: Computer Science </h3>
+            <p><i>University of New Haven - West Haven, CT</i></p>
+            <p><i>Graduation: May 2026</i></p>
+            <ul>
+                <li>Dean's List [Spring 2022, Spring 2025]</li>
+                <li>University of New Haven Distinguished Scholar Recipient</li>
+                <li>United Food & Commerical Worker's Local 919 Scholarship Recipient</li>
+                <li>Connecticut Community Foundation Scholarship Recipient</li>
+                <li>American Savings Scholarship Recipient</li>
+                <li>Awarded 2nd Place in the Pompea College of Business's Pitch Competition</li>
+              </ul>   
         </section>
+
+        <hr>
 
         <section id="skills" class="section">
             <h1>Skills</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            <p>
+              <span class="skill">JavaScript</span>
+              <span class="skill">Web Development</span>
+              <span class="skill">Mobile Development</span>
+              <span class="skill">React</span>
+              <span class="skill">C++</span>
+              <span class="skill">Kotlin</span>
+              <span class="skill">Python</span>
+              <span class="skill">Project Management</span>
+              <span class="skill">Communication</span>
+              <span class="skill">Documentation</span>
+              <span class="skill">Swift</span>
             </p>
         </section>
+        <hr>
 
-        <section id="experience" class="section">
+        <section id="experience" class="largeSection">
             <h1>Experience</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+              <h2>Frontend Developer</h2>
+              <p><i>One Sky Collective, Glasgow, Scotland</i>
+              </p>
+              <ul>
+                  <li>Collaborating with the development team to build a <u>React-based mobile application</u> focused on user-centered design and functionality.
+                  </li>
+                </ul>     
+            </div>
+                <h2>Frontend Developer Lead</h2>
+                <p><i>GBCS Group, Calgary, Alberta</i>
+                </p>
+                <ul>
+                    <li>Contributed to the <u> development of internal web platforms </u> using React and Next.js,
+                        implementing new features and resolving bugs to improve functionality and user
+                        experience.</li>
+                    <li><u>Created technical documentation</u> to support development workflows and streamline
+                        onboarding for multiple websites.</li>
+                    <li>Engaged in weekly team meetings, providing updates and collaborating cross-functionally
+                        to align on goals.</li>
+                    <li>Developed practical skills in project management, with mentorship in <u>strategic planning,
+                        team dynamics, and workflow optimization.</u></li>
+                  </ul>    
         </section>
+        <hr>
 
-        <section id="projects" class="section">
+        <section id="projects" class="largeSection">
             <h1>Projects</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+            <div class="app-image"> 
+                <img src="datespark.png" alt="Photo of App DateSpark">
+            <div class="app-content">
+            <h2>Date Spark</h2>
+            <p> DateSpark is an interactive date finding app for couples! This project is an iOS mobile app using Swift and SwiftUI. </p>
+                <p> 
+                Features include:
+                </p>
+                <ul>
+                    <li>Interactive wheel for selecting random date ideas</li>
+                    <li>“Saved Dates” list and custom date input</li>
+                    <li>Chatbot integration via OpenAI API for personalized date suggestions</li>
+                    <li>Apple MapKit integration to locate nearby restaurants and cafes</li>
+                    <li>Firebase Firestore (NoSQL) backend and Google Sign-In authentication</li>
+                    <li><a href="https://youtu.be/zaFkQbMY8QA" target="_blank">Youtube Video</a></li>
+                    <li><a href="https://github.com/UNH-iOS-Spring2024/DateSpark-S24--SvitlikRussell">GitHub Repo</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="app-image"> 
+                  <img src="what2watch.png" alt="Photo of App DateSpark">
+                <div class="app-content">
+                <h2>What2Watch</h2>
+                <p>What2Watch is an Android app using Kotlin (API 30+) to recommend movies and shows based on user preferences and mood. </p>
+                    <p>  
+                    Features include:
+                    </p>   
+                    <ul>  
+                        <li>Firebase Firestore backend with data parsed from IMDb</li>
+                        <li>Google Sign-In authentication</li>
+                        <li>Dynamic UI tailored to user input and viewing habits</li>
+                        <li><a href="https://youtu.be/404anL1EBQ4">Youtube Video</a></li>
+                        <li><a href="https://github.com/UNH-Android-Fall23/What2Watch-Svitlik-Odunsi-F23.git">GitHub Repo</a></li>
+                    </ul> 
+                    </div>
+            </div>
         </section>
+        <hr>
 
-        <section id="blog" class="section">
+
+        
+          <section id="blog" class="section">
             <h1>Blog</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </section>
+            <div class="blog-list">
+              <div class="blog-card">
+                <h2><a href="blog1.html" target="_blank">My First Internship as a Frontend Developer</a></h2>
+                <p>What I learned and experienced during my first internship. </p>
+              </div>
+              <div class="blog-card">
+                <h2><a href="blog2.html" target="_blank">App Development: Android & iOS</a></h2>
+                <p>I’m excited to share the apps I completed this past year in my Android & iOS Development!</p>
+              </div>
+            </div>
+          </section>
+          
 
-        <section id="contactme" class="section">
-            <h1>Contact Me</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </section>
+        <hr>
+
+<section id="contactme" class="section">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/xovngwwe" method="POST" class="contact-form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
     </body>
-
 </html>
 
         
